@@ -26,12 +26,12 @@ string ari(string s)
                 sentence++;
               }
   }       
-  a=(double)charnum/word;        
-  b=(double)word/sentence;       
-  c=(double)4.71*a;
-  d=(double)0.5*b;
-  e=(double)a+b;
-  x=(double)(e)-21.43;
+  a=charnum/word;        
+  b=word/sentence;       
+  c=4.71*a;
+  d=0.5*b;
+  e=a+b;
+  x=e-21.43;
   switch (ceil(x)) 
   {
     case 1: return "Kindergarten"; 

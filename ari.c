@@ -22,7 +22,7 @@ string ari(string s)
          {
            word++;
           }
-       if((s[i]=='.'||s[i]=='?'||s[i]=='!') 
+       if(s[i]=='.'||s[i]=='?'||s[i]=='!') 
               {
                 sentence++;
               }

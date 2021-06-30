@@ -10,7 +10,8 @@ string ari(string s)
   int charnum=0;
   int word=0;
   int sentence=0;
-  float a,b,x,c,d,e,f;
+  float a,b,x,c,d,e;
+  int f;
   for(int i=0;i<strlen(s);i++)
   {
     if(isalnum(s[i])==1) 

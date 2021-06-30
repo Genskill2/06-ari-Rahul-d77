@@ -31,7 +31,7 @@ string ari(string s)
   b=(double)word/sentence;       
   c=(double)4.71*a;
   d=(double)0.5*b;
-  e=(double)a+b;
+  e=(double)c+d;
   x=(double)e-21.43;
   f=ceil(x);
   switch (f) 

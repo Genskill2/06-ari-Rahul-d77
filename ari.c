@@ -26,7 +26,7 @@ string ari(string s)
   }       
   a=(double)charnum/word;        
   b=(double)word/sentence;       
-  x=(double)((4.71*a)+(0.5*b))-21.43;
+  x=((4.71*a)+(0.5*b))-21.43;
   c=ceil(x);
   switch (c) 
   {

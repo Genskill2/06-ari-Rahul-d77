@@ -31,19 +31,35 @@ string ari(string s)
   }       
   a=(double)charnum/word;        
   b=(double)word/sentence;       
-  x=ceil(((4.71*a)+(0.5*b))-21.43);      
-  if(x==1) return "Kindergarten";
-  if(x==2) return "First/Second grade";
-  if(x==3) return "Third Grade";
-  if(x==4) return "Fourth Grade";
-  if(x==5) return "Fifth Grade";
-  if(x==6) return "Sixth Grade";
-  if(x==7) return "Seventh Grade";
-  if(x==8) return "Eighth Grade";
-  if(x==9) return "Ninth Grade";
-  if(x==10) return "Tenth Grade";
-  if(x==11) return "Eleventh Grade";
-  if(x==12) return "Twelfth Grade";
-  if(x==13) return "College student";
-  if(x==14) return "Professor";
+  x=ceil(((4.71*a)+(0.5*b))-21.43);    
+  switch (x) 
+  {
+    case 1: return "Kindergarten"; 
+            break;
+    case 2: return "First/Second grade";
+            break;
+    case 3: return "Third Grade";
+            break;
+    case 4: return "Fourth Grade";
+            break;
+    case 5: return "Fifth Grade";
+            break;
+    case 6: return "Sixth Grade";
+            break;
+    case 7: return "Seventh Grade";
+            break;
+    case 8: return "Eighth Grade";
+            break;
+    case 9: return "Ninth Grade";
+            break;
+    case 10: return "Tenth Grade";
+             break;
+    case 11: return "Eleventh Grade";
+             break;
+    case 12: return "Twelfth Grade";
+             break;
+    case 13: return "College student";
+             break;
+    case 14: return "Professor";
+             break;
 }

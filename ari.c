@@ -7,7 +7,7 @@
 
 string ari(string s)
 {
-  int charnum=0,word=0,sentence=0;
+  int charnum=0,word=0,sentence=0,c;
   float a,b,x;
   for(int i=0;i<strlen(s);i++)
   {
@@ -27,7 +27,8 @@ string ari(string s)
   a=(double)charnum/word;        
   b=(double)word/sentence;       
   x=(double)((4.71*a)+(0.5*b))-21.43;
-  switch (ceil(x)) 
+  c=ceil(x);
+  switch (c) 
   {
     case 1: return "Kindergarten"; 
             break;

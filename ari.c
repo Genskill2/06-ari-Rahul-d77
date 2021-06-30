@@ -31,33 +31,33 @@ string ari(string s)
   switch (c) 
   {
     case 1: return "Kindergarten"; 
-            break;
+       //     break;
     case 2: return "First/Second grade";
-            break;
+          //  break;
     case 3: return "Third Grade";
-            break;
+         //   break;
     case 4: return "Fourth Grade";
-            break;
+         //   break;
     case 5: return "Fifth Grade";
-            break;
+        //    break;
     case 6: return "Sixth Grade";
-            break;
+        //    break;
     case 7: return "Seventh Grade";
-            break;
+       //   break;
     case 8: return "Eighth Grade";
-            break;
+         //   break;
     case 9: return "Ninth Grade";
-            break;
+        //    break;
     case 10: return "Tenth Grade";
-             break;
+        //     break;
     case 11: return "Eleventh Grade";
-             break;
+         //    break;
     case 12: return "Twelfth Grade";
-             break;
+           //  break;
     case 13: return "College student";
-             break;
+         //    break;
     case 14: return "Professor";
-             break;
+           //  break;
     
    }
 }

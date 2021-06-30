@@ -4,7 +4,6 @@
 #include <math.h>
 #include <ctype.h>
 
-
 string ari(string s)
 {
   int charnum=0,word=0,sentence=0,c;

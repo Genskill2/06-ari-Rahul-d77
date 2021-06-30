@@ -10,7 +10,7 @@ string ari(string s)
   int charnum=0;
   int word=0;
   int sentence=0;
-  int x;
+  double x;
   double a;
   double b;
   int c;
@@ -18,21 +18,21 @@ string ari(string s)
   {
     if(isalnum(s[i])==1) 
     {
-      charnum++;      
-    }             
-    else if(s[i]==' ') 
+      charnum++;                 
+      else if(s[i]==' ') 
          {
            word++;
-         }
-         else if((s[i]=='.'||s[i]=='?')||s[i]=='!') 
+           else if((s[i]=='.'||s[i]=='?')||s[i]=='!') 
               {
                 sentence++;
               }
+          }
+     }
     
   }       
   a=(double)charnum/word;        
   b=(double)word/sentence;       
-  x=(int)((4.71*a)+(0.5*b))-21.43;  
+  x=(double)((4.71*a)+(0.5*b))-21.43;  
   c=ceil(x);
   switch (c) 
   {

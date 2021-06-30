@@ -63,6 +63,6 @@ string ari(string s)
     case 13: return "College student";
              
     case 14: return "Professor";
-             
+    default: return 0;
    }
 }

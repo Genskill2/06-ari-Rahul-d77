@@ -14,7 +14,7 @@ string ari(string s)
   int f;
   for(int i=0;i<strlen(s);i++)
   {
-    if(isalnum(s[i])==0) 
+    if(isalnum(s[i])) 
     {
       charnum++;      
      }           

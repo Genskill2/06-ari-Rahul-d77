@@ -6,8 +6,8 @@
 
 string ari(string s)
 {
-  int charnum=0,word=0,sentence=0,c;
-  float a,b,x;
+  int charnum=0,word=0,sentence=0,d;
+  float a,b,x,c;
   for(int i=0;i<strlen(s);i++)
   {
     if(isalnum(s[i])) 
@@ -25,9 +25,10 @@ string ari(string s)
   }       
   a=(double)charnum/word;        
   b=(double)word/sentence;       
-  x=((4.71*a)+(0.5*b))-21.43;
-  c=ceil(x);
-  switch (c) 
+  x=4.71*a;
+  c=(0.5*b)-21.43;
+  d=ceil(x+c);
+  switch (d) 
   {
     case 1: return "Kindergarten"; 
     case 2: return "First/Second grade";

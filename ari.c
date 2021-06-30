@@ -11,6 +11,8 @@ string ari(string s)
   int word=0;
   int sentence=0;
   int x;
+  double a;
+  double b;
   for(int i=0;i<strlen(s);i++)
   {
     if(isalnum(s[i])==1) 
@@ -27,8 +29,8 @@ string ari(string s)
               }
     
   }       
-  double a=(double)charnum/word;        
-  double b=(double)word/sentence;       
+  a=(double)charnum/word;        
+  b=(double)word/sentence;       
   x=ceil(((4.71*a)+(0.5*b))-21.43);      
   if(x==1) return "Kindergarten";
   if(x==2) return "First/Second grade";

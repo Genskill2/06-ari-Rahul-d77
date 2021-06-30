@@ -10,7 +10,7 @@ string ari(string s)
   int charnum=0;
   int word=0;
   int sentence=0;
-  float a,b,x,c,d,e;
+  float a,b,x,c,d,e,f;
   for(int i=0;i<strlen(s);i++)
   {
     if(isalnum(s[i])==1) 
@@ -26,13 +26,14 @@ string ari(string s)
                 sentence++;
               }
   }       
-  a=charnum/word;        
-  b=word/sentence;       
-  c=4.71*a;
-  d=0.5*b;
-  e=a+b;
-  x=e-21.43;
-  switch (ceil(x)) 
+  a=(double)charnum/word;        
+  b=(double)word/sentence;       
+  c=(double)4.71*a;
+  d=(double)0.5*b;
+  e=(double)a+b;
+  x=(double)e-21.43;
+  f=ceil(x);
+  switch (f) 
   {
     case 1: return "Kindergarten"; 
             

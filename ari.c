@@ -44,6 +44,5 @@ string ari(string s)
     case 12: return "Twelfth Grade";
     case 13: return "College student";
     case 14: return "Professor";
-    default: return printf(" Error");
    }
 }

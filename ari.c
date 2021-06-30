@@ -62,4 +62,5 @@ string ari(string s)
              break;
     case 14: return "Professor";
              break;
+   }
 }
